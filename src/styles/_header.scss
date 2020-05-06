@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  .menu {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    &--main {
+      display: flex;
+      align-items: center;
+
+      &__item:nth-of-type(1) {
+        color: $font-color;
+        font-weight: bold;
+      }
+
+      li ul {
+        display: none;
+      }
+      li:hover ul {
+        //li태그에 호버가되고 밑에 ul 에 값을줌
+        display: block;
+        position: absolute;
+        border: 1px solid #f2f2f2;
+        margin-top: 2px;
+      }
+
+      &__item {
+        margin-left: 2vh;
+      }
+    }
+  }
+}

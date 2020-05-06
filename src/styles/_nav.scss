@@ -1,0 +1,72 @@
+.nav {
+  width: 100%;
+  .menu {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+
+    //Box first
+    .categoryWrapper {
+      position: relative;
+      display: flex;
+      .iconBox {
+      }
+      .catergoryBox {
+        ul {
+          display: none;
+          li {
+            width: 100%;
+            padding: 20px 35px;
+
+            line-height: 12px;
+            &:hover {
+              background-color: hsl(0, 0%, 97%);
+              display: block;
+            }
+          }
+        }
+
+        &:hover .category-left {
+          margin-top: 2px;
+          position: absolute;
+          display: block;
+          border: 1px solid #f2f2f2;
+          z-index: 1;
+          background-color: white;
+        }
+      }
+    }
+    //Box Second
+    .navBox {
+      flex-grow: 2;
+      .navigation {
+        display: flex;
+        justify-content: space-between;
+        .item {
+          box-sizing: content-box;
+          padding-left: 1vh;
+          margin: 0 auto;
+          border-left: 1px solid black;
+
+          &:hover {
+            color: $font-color;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    //Third Box
+    .functionBox {
+      display: flex;
+      * {
+        margin-left: 2vh;
+      }
+      .iconBox {
+        > img {
+          width: 25px;
+        }
+      }
+    }
+  }
+}

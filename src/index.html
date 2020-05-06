@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,22 +10,107 @@
     <!-- Emment -->
     <!-- (.header>.container{header})+(.logo>.container{logo})+(.nav>.container{nav})+(.content>.container{content})+.footer>.container{footer} -->
     <div class="header">
-      <div class="container">
+      <div class="menu">
         <div class="buttonbox"><button>샛별배송</button></div>
-        <ul class="menu">
-          <li class="menu-item"><a href="#">1</a></li>
-          <li class="menu-item"><a href="#">2</a></li>
-          <li class="menu-item"><a href="#">3</a></li>
-          <li class="menu-item"><a href="#">4</a></li>
+        <ul class="menu--main">
+          <li class="menu--main__item"><a href="#">회원가입 </a></li>
+          <li class="menu--main__item"><a href="#">로그인</a></li>
+          <li class="menu--main__item">
+            <a href="#">고객센터 ▾</a>
+            <ul class="dropdown">
+              <li class="dropdown__item"><a href="#">회원가입 </a></li>
+              <li class="dropdown__item"><a href="#">로그인</a></li>
+              <li class="dropdown__item"><a href="#">고객센터</a></li>
+              <li class="dropdown__item"><a href="#">배송지역검색</a></li>
+            </ul>
+          </li>
+
+          <li class="menu--main__item"><a href="#">배송지역검색</a></li>
         </ul>
       </div>
     </div>
     <div class="logo">
-      <div class="container">logo</div>
+      <div class="container">
+        <div class="imgBox">
+          <img
+            src="https://res.kurly.com/images/marketkurly/logo/logo_x2.png"
+            alt="마켓컬리 로고"
+          />
+        </div>
+      </div>
     </div>
     <div class="nav">
-      <div class="container">nav</div>
+      <div class="menu">
+        <!-- category box -->
+        <div class="categoryWrapper">
+          <div class="iconBox">
+            icon
+            <img src="ddd" alt="" srcset="" />
+          </div>
+          <div class="catergoryBox">
+            전체카테고리
+            <ul class="category-left">
+              <li>item1</li>
+              <li>item2</li>
+              <li>item3</li>
+              <li>item4</li>
+              <li>item5</li>
+              <li>item6</li>
+              <li>item7</li>
+              <li>item8</li>
+              <li>item9</li>
+              <li>item10</li>
+              <li>item11</li>
+              <li>item12</li>
+              <li>item13</li>
+              <li>item14</li>
+              <li>item15</li>
+              <li>item16</li>
+              <li>item17</li>
+            </ul>
+            <!-- Multi Level Hover Dropdown Menu  -->
+            <ul class="category-right">
+              <li>item1</li>
+              <li>item2</li>
+              <li>item3</li>
+              <li>item4</li>
+              <li>item5</li>
+              <li>item6</li>
+              <li>item7</li>
+              <li>item8</li>
+              <li>item9</li>
+              <li>item10</li>
+              <li>item11</li>
+              <li>item12</li>
+              <li>item13</li>
+              <li>item14</li>
+              <li>item15</li>
+              <li>item16</li>
+              <li>item17</li>
+            </ul>
+          </div>
+        </div>
+        <!-- navigation box -->
+        <div class="navBox">
+          <ul class="navigation">
+            <li class="item">신상품</li>
+            <li class="item">베스트</li>
+            <li class="item">알뜰쇼핑</li>
+            <li class="item">이벤트</li>
+          </ul>
+        </div>
+        <!-- search Box -->
+        <div class="functionBox">
+          <div class="inputBox"><input type="text" placeholder="test" /></div>
+          <div class="iconBox">
+            <img
+              src="https://res.kurly.com/pc/ico/1908/ico_cart_x2_v2.png" alt=""></img>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="slider"></div>
     <div class="content">
       <div class="container">content</div>
     </div>

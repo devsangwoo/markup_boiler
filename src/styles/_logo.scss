@@ -1,0 +1,12 @@
+.logo {
+  width: 100%;
+  .container {
+    @include container;
+    .imgBox {
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 2vh;
+    }
+  }
+}

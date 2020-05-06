@@ -1,22 +1,8 @@
-.header {
-  background: aqua;
-  width: 100%;
-  .container {
-    @include container;
-  }
+.slider {
+  background: pink;
+  height: 500px;
 }
-.logo {
-  background: red;
-  .container {
-    @include container;
-  }
-}
-.nav {
-  background: blue;
-  .container {
-    @include container;
-  }
-}
+
 .content {
   background: pink;
   .container {
