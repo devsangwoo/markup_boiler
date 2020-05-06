@@ -1,0 +1,31 @@
+.header {
+  background: aqua;
+  width: 100%;
+  .container {
+    @include container;
+  }
+}
+.logo {
+  background: red;
+  .container {
+    @include container;
+  }
+}
+.nav {
+  background: blue;
+  .container {
+    @include container;
+  }
+}
+.content {
+  background: pink;
+  .container {
+    @include container;
+  }
+}
+.footer {
+  background: green;
+  .container {
+    @include container;
+  }
+}

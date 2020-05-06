@@ -1,0 +1,6 @@
+@mixin container {
+  box-sizing: border-box;
+  width: 1024px;
+  background: white;
+  margin: 0 auto;
+}
